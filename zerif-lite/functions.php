@@ -516,6 +516,10 @@ function zerif_scripts() {
 
 
 
+    wp_enqueue_style('jquery-ui-smoothness', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css', false, null);
+
+
+
     if ( wp_is_mobile() ){
 
         
@@ -529,6 +533,9 @@ function zerif_scripts() {
 
 
     wp_enqueue_script('jquery');
+
+    wp_enqueue_script('jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js', array('jquery'), '1.11.4');
+
 
 
 
