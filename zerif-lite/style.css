@@ -182,7 +182,8 @@ q:after {
 
 a:focus {
 
-	outline: thin dotted;
+	/*outline: thin dotted;*/
+	outline: none !important;
 
 }
 
@@ -604,7 +605,7 @@ h6 {
 
 	text-align: center;
 
-	margin-top: 45px;
+	margin-top: 50px;
 
 }
 
@@ -642,19 +643,15 @@ h6 {
 
 }
 
-.red-btn, .green-btn{
+.green-btn {
 
-	background:  #41CD8C;
-
-}.green-btn {
-
-	background:  #41CD8C;
+	background:  #54AF46;
 
 }
 
 .blue-btn {
 
-	background: #3ab0e2;
+	background: #2F6388;
 
 }
 
@@ -3352,7 +3349,7 @@ ul.nav > li.current_page_item.current > a:before {
 
 	z-index: 0;
 
-	text-transform: uppercase;
+	text-transform: capitalize;
 
 	font-size: 55px;
 
@@ -3370,12 +3367,41 @@ ul.nav > li.current_page_item.current > a:before {
 
 	z-index: 0;
 
-	text-transform: uppercase;
+	text-transform: capitalize;
 
 	font-size: 55px;
 
 	float:none;
 
+}
+
+.intro-subtext{
+    background-color: #2F6388;
+    text-align: center;
+    width: 40%;
+    height: 140px;
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    left: 30%;
+    padding: 33px 70px;
+    margin-top: 50px;
+}
+
+.intro-text span {
+	font-size: 55px;
+}
+
+.title-s {
+	color: #F46B2E;
+}
+
+.title-g {
+	color: #54AF46;
+}
+
+.title-m {
+	color: #2F6388;
 }
 
 /* Short Messages */
@@ -3804,6 +3830,48 @@ ul.nav > li.current_page_item.current > a:before {
 
 	margin-right: 8px;
 
+}
+
+#tabs {
+	background: rgba(47, 99, 136, 0.8) !important;
+	height: 20em;
+}
+
+#tabs p {
+	color: #fff;
+	text-align: left;
+	font-size: 15px;
+}
+
+#tabs ul, #tabs li {
+	background: rgba(47, 99, 136, 0.8) !important;
+}
+
+#tabs ul {
+	height: 100%;
+	width: 18em;
+	border: none;
+}
+
+#tabs li {
+	height: 33%;
+}
+
+#tabs li a {
+	font-size: 20px;
+	color: #fff;
+	float: initial;
+}
+
+#focus .row {
+	float: right;
+	width: initial;
+}
+
+#focus li.ui-tabs-active {
+	margin-bottom: 0;
+	border: none;
+	border-left: 8px solid #F46B2E;
 }
 
 /*---------------------------------------
@@ -4398,7 +4466,7 @@ width: -webkit-calc(100% / 4);
 
 .about-us {
 
-	background: #272727;
+	background: linear-gradient(#F46B2E, #DB7E53);
 
 	color: #FFF;
 
@@ -4428,7 +4496,7 @@ width: -webkit-calc(100% / 4);
 
 	text-align: left;
 
-	color: #939393;
+	color: #fff;
 
 	font-size: 14px;
 
@@ -5824,7 +5892,7 @@ width: -webkit-calc(100% / 4);
 
 .contact-us {
 
-	background: rgba(0, 0, 0, 0.5);
+	background: #15628D;
 
 	padding-bottom: 95px;
 

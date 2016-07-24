@@ -464,7 +464,8 @@ function zerif_big_title_text_function() {
 
 	if( !empty($zerif_bigtitle_title) ):
 
-		echo '<h1 class="intro-text">'.wp_kses_post( $zerif_bigtitle_title ).'</h1>';
+		// echo '<h1 class="intro-text">'.wp_kses_post( $zerif_bigtitle_title ).'</h1>';
+		echo '<h1 class="intro-text"><span class="title-s">S</span><span>ocial </span><span class="title-g">G</span><span>ood </span><span class="title-m">M</span><span>arketing</span></h1>';
 
 	elseif ( is_customize_preview() ):
 
