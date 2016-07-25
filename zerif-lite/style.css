@@ -3438,6 +3438,10 @@ ul.nav > li.current_page_item.current > a:before {
 
 }
 
+.latest-news .section-header h2 {
+	color: #000;
+}
+
 .carousel-inner {
 
 /*	margin: 0 30px; */
@@ -3554,7 +3558,7 @@ ul.nav > li.current_page_item.current > a:before {
 
 #carousel-homepage-latestnews {
 
-	margin: 0 30px;
+	margin: 0;
 
 }
 
@@ -3872,6 +3876,10 @@ ul.nav > li.current_page_item.current > a:before {
 	margin-bottom: 0;
 	border: none;
 	border-left: 8px solid #F46B2E;
+}
+
+#focus .ui-tabs-panel {
+	padding-top: 3em;
 }
 
 /*---------------------------------------
@@ -4489,18 +4497,29 @@ width: -webkit-calc(100% / 4);
 .about-us .section-header .section-legend {
 
 	color: #FFF;
+	display: block;
+	text-align: center;
 
+}
+
+.about-us .section-header {
+	padding-bottom: 25px;
+	border-bottom: 1px solid #fff;
+}
+
+.about-us .section-legend {
+	font-size: 20px;
 }
 
 .about-us p {
 
-	text-align: left;
-
 	color: #fff;
 
-	font-size: 14px;
-
 	line-height: 25px;
+
+	font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
 
 }
 

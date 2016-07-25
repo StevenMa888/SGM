@@ -80,10 +80,12 @@
 			    <p>If you’re struggling to answer these questions, we can help!.</p>
 			  </div>
 			  <div id="tabs-2">
-			    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+			    <p>We write the kind of press releases that don’t make editors cringe. We don’t waste their time on the phone or in social, so we’re very specific with our approach. We help you get noticed for the right reasons. Then, we blend in social media marketing to enhance our outreach.</p>
 			  </div>
 			  <div id="tabs-3">
-			    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+			    <p>Real-time Posting:<br>How many times have you hosted an event and you didn’t have anyone posting to your social media pages during the event? We do that! We attend your event and take photos of the VIPs, the crowd, the speeches and we post during your event so everything is captured in real time! Hire us for your next event and watch your social media engagement increase dramatically!</p>
+					<p> </p>
+					<p>Scheduled:<br>We write the content that increases engagement. Some firms are worried about increased likes or followers. But, what good is having 10,000 followers if none of them react to your posts? We work with you to create an editorial calendar, timely and strategic social media posts, and to setup a Hootsuite account for automated scheduling. If you don’t have the time or capacity to tweet – we do!</p>
 			  </div>
 			</div>
 		</div>
