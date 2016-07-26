@@ -193,6 +193,11 @@
 
 <?php zerif_bottom_body_trigger(); ?>
 
+<script>
+	document.getElementById('content').insertBefore(document.getElementById("aboutus"), document.getElementById('focus'));
+	document.getElementById('content').insertBefore(document.getElementById("latestnews"), document.getElementById('testimonials'));
+</script>
+
 </body>
 
 </html>
