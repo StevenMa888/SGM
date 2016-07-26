@@ -4503,6 +4503,7 @@ width: -webkit-calc(100% / 4);
 }
 
 .about-us .section-header {
+	text-align: center;
 	padding-bottom: 25px;
 	border-bottom: 1px solid #fff;
 }
@@ -4517,7 +4518,7 @@ width: -webkit-calc(100% / 4);
 
 	line-height: 25px;
 
-	font-size: 18px;
+	font-size: 15px;
     text-align: left;
     margin-top: 20px;
 
@@ -4525,7 +4526,7 @@ width: -webkit-calc(100% / 4);
 
 .about-us .column {
 
-	margin-bottom: 78px;
+	/*margin-bottom: 78px;*/
 
 }
 
@@ -4535,6 +4536,24 @@ width: -webkit-calc(100% / 4);
 
 	text-align: center;
 
+}
+
+.about-us .our-founder, .about-us .work-with-sgm {
+	display: none;
+}
+
+.about-us .buttons {
+	padding-bottom: 50px;
+}
+
+.about-us .buttons button {
+	background: none;
+	border: 1px solid #fff;
+}
+
+.about-us .buttons button.active {
+	background: #54AF46;
+	border: none;
 }
 
 /*--SKILLS --*/
