@@ -5645,11 +5645,9 @@ width: -webkit-calc(100% / 4);
 
 #client-feedbacks .feedback-box {
 
-    width: 30%;
+    width: 60%;
 
-    background: #FFFFFF;
-
-    padding: 25px;
+    background: rgba(47, 99, 136, 0.8) !important;;
 
     margin: 13px;
 
@@ -5673,15 +5671,13 @@ width: -webkit-calc(100% / 4);
 
 	font-size: 15px;
 
-	color: #777777;
+	color: #fff;
+
+	margin: 20px;
 
 }
 
 .feedback-box .client {
-
-	margin-top: 30px;
-
-	height: 73px;
 
 	position: relative;
 
@@ -5699,37 +5695,37 @@ width: -webkit-calc(100% / 4);
 
 .feedback-box .client-info {
 
-	float: left;
+	padding: 10px 0;
 
-	margin-left: 18px;
+	background-color: #54AF46;
 
-	padding-top: 15px;
+    text-align: center;
 
 }
 
 .feedback-box .client-info .client-name {
 
-	font-family: 'Homemade Apple', serif;
-
-	color: #404040;
+/*	font-family: 'Homemade Apple', serif;
+*/
+	color: #fff;
 
 }
 
-.feedback-box .client-info .client-company {
+.feedback-box .message .client-company {
 
-	font-size: 13px;
-
-	margin-top: -3px;
+	margin-bottom: 5px;
 
 }
 
 .feedback-box .client-image {
 
-	float: right;
+	float: left;
 
-	width: 73px;
+	margin: 20px;
 
-	height: 73px;
+	width: 100px;
+
+	height: 100px;
 
 	border-radius: 50%;
 

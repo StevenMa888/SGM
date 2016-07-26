@@ -1545,21 +1545,6 @@ class zerif_testimonial_widget extends WP_Widget {
 
 
 
-            <!-- MESSAGE OF THE CLIENT -->
-
-
-
-			<?php if( !empty($instance['text']) ): ?>
-
-				<div class="message">
-
-					<?php echo htmlspecialchars_decode(apply_filters('widget_title', $instance['text'])); ?>
-
-				</div>
-
-			<?php endif; ?>
-
-
 
             <!-- CLIENT INFORMATION -->
 
@@ -1585,25 +1570,7 @@ class zerif_testimonial_widget extends WP_Widget {
 
 
 
-					<a <?php echo $attribut_new_tab; ?> class="client-name" <?php if( !empty($instance['link']) ): echo 'href="'.esc_url($instance['link']).'"'; endif; ?>><?php if( !empty($instance['title']) ): echo apply_filters('widget_title', $instance['title'] ); endif; ?></a>
-
-					
-
-
-
-					<?php if( !empty($instance['details']) ): ?>
-
-                    <div class="client-company">
-
-
-
-                        <?php echo apply_filters('widget_title', $instance['details']); ?>
-
-
-
-                    </div>
-
-					<?php endif; ?>
+                    <a <?php echo $attribut_new_tab; ?> class="client-name" <?php if( !empty($instance['link']) ): echo 'href="'.esc_url($instance['link']).'"'; endif; ?>><?php if( !empty($instance['title']) ): echo apply_filters('widget_title', $instance['title'] ); endif; ?></a>
 
 
 
@@ -1613,63 +1580,91 @@ class zerif_testimonial_widget extends WP_Widget {
 
                 <?php
 
-				
+                
 
-				if( !empty($instance['image_uri']) && ($instance['image_uri'] != 'Upload Image') ) {
-
-
-
-					echo '<div class="client-image hidden-xs">';
+                if( !empty($instance['image_uri']) && ($instance['image_uri'] != 'Upload Image') ) {
 
 
 
-						echo '<img src="' . esc_url($instance['image_uri']) . '" alt="'.__( 'Uploaded image', 'zerif-lite' ).'" />';
+                    echo '<div class="client-image hidden-xs">';
 
 
 
-					echo '</div>';
-
-					
-
-				} elseif( !empty($instance['custom_media_id']) ) {
-
-			
-
-					$zerif_testimonials_custom_media_id = wp_get_attachment_image_src($instance["custom_media_id"] );
-
-					if( !empty($zerif_testimonials_custom_media_id) && !empty($zerif_testimonials_custom_media_id[0]) ) {
-
-						
-
-						echo '<div class="client-image hidden-xs">';
+                        echo '<img src="' . esc_url($instance['image_uri']) . '" alt="'.__( 'Uploaded image', 'zerif-lite' ).'" />';
 
 
 
-							echo '<img src="' . esc_url($zerif_testimonials_custom_media_id[0]) . '" alt="'.__( 'Uploaded image', 'zerif-lite' ).'" />';
+                    echo '</div>';
+
+                    
+
+                } elseif( !empty($instance['custom_media_id']) ) {
+
+            
+
+                    $zerif_testimonials_custom_media_id = wp_get_attachment_image_src($instance["custom_media_id"] );
+
+                    if( !empty($zerif_testimonials_custom_media_id) && !empty($zerif_testimonials_custom_media_id[0]) ) {
+
+                        
+
+                        echo '<div class="client-image hidden-xs">';
 
 
 
-						echo '</div>';
+                            echo '<img src="' . esc_url($zerif_testimonials_custom_media_id[0]) . '" alt="'.__( 'Uploaded image', 'zerif-lite' ).'" />';
 
-				
 
-					}
 
-				} 
+                        echo '</div>';
+
+                
+
+                    }
+
+                } 
 
 
 
                 ?>
+
+                <!-- MESSAGE OF THE CLIENT -->
+
+
+
+                    <?php if( !empty($instance['text']) ): ?>
+
+                        <div class="message">
+
+                            <?php if( !empty($instance['details']) ): ?>
+
+                            <div class="client-company">
+
+
+
+                                <?php echo apply_filters('widget_title', $instance['details']); ?>
+
+
+
+                            </div>
+
+                            <?php endif; ?>
+
+                            <?php echo htmlspecialchars_decode(apply_filters('widget_title', $instance['text'])); ?>
+
+                        </div>
+
+                    <?php endif; ?>
+
+
+
+                </div> <!-- / END SINGLE FEEDBACK BOX-->
 
 
 
             </div>
 
             <!-- / END CLIENT INFORMATION-->
-
-
-
-        </div> <!-- / END SINGLE FEEDBACK BOX-->
 
 
 
